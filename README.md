@@ -1,5 +1,4 @@
-# CRUD_todos
-TODO CRUD App
+# TODO CRUD App
 
 The TODO CRUD App is a modern, responsive task management application that allows users to Create, Read, Update, and Delete (CRUD) their todos efficiently. The app integrates with a backend API to store tasks and features an elegant UI with clean typography, gradients, and smooth interactions.
 
