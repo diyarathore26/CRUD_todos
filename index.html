@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO CURD APP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1 class="heading">TODO APP</h1>
+
+  <div class="input-container">
+    <input type="text" class="todo-text" placeholder="ENTER A TODO">
+    <button class="todo-btn" onclick="addTodos()">ADD TODOS</button>
+  </div>
+
+  <div class="all-todos-text"></div>
+
+  <div class="edit-modal" style="display: none;">
+    <div class="edit-modal-content">
+      <h3 class="edit-todo">Edit Todo</h3>
+      <input type="text" class="edit-input" placeholder="Enter new todo">
+      <div class="edit-actions">
+        <button class="save-edit-btn">Save</button>
+        <button class="cancel-edit-btn">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="javascript/script.js"></script>
+</html>
