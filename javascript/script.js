@@ -20,6 +20,7 @@ fetchTodos();
 function displayTodos(todos) {
   if (!todos.length) {
     allTodosText.innerHTML = `<h1> PLEASE ADD TODO </h1>`;
+    return;
   }
 
   allTodosText.innerHTML = todos
